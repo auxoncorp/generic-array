@@ -22,7 +22,7 @@ travis-ci = { repository = "fizyk20/generic-array" }
 name = "generic_array"
 
 [dependencies]
-typenum = "1.10"
+typenum = { git = "ssh://github.com/auxoncorp/typenum" }
 serde = { version = "1.0", optional = true, default-features = false }
 
 [dev_dependencies]
